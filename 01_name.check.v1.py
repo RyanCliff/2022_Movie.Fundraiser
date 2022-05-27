@@ -3,5 +3,11 @@ def not_blank(question):
     valid = False
 
     while not valid:
-        try:
-            name = input(question)
+        response = input(question)
+
+        if response != "":
+            return response
+        else:
+            print("Sorry - this can't be blank")
+
+name = not_blank("Name: ")
