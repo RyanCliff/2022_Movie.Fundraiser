@@ -1,3 +1,5 @@
+# Functions go here
+
 
 def not_blank(question):
     valid = False
@@ -10,4 +12,5 @@ def not_blank(question):
         else:
             print("Sorry - this can't be blank")
 
+# Main routine goes here
 name = not_blank("Name: ")
